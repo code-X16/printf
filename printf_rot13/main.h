@@ -1,5 +1,5 @@
-#ifndef _HOLBERTON_H
-#define _HOLBERTON_H
+#ifndef _MAIN_H
+#define _MAIN_H
 #include <stdarg.h>
 #include <stdlib.h>
 #include <stdio.h>
@@ -13,7 +13,7 @@
 typedef struct fn
 {
 	char *ob;
-	int (*type)(va_list var)
+	int (*type)(va_list var);
 } fn_t;
 
 int _putchar(char *c);

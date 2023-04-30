@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
  * _printf - A printf clone
@@ -42,6 +42,5 @@ int _printf(const char *format, ...)
 		}
 		va_end(args);
 	}
-return (count[1]);
+	return (count[1]);
 }
-

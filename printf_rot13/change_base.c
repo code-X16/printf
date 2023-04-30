@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
  * change_base - changes number base
@@ -19,5 +19,5 @@ char *change_base(unsigned int num, int base)
 		*--ptr = symbols[num % base];
 		num /= base;
 	} while (num != 0);
-return (ptr);
+	return (ptr);
 }
